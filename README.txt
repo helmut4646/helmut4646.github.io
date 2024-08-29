@@ -4,6 +4,7 @@ Designed and creavitiy by helmut sirait
 Some of the code in certain parts of this website was not created by me, but I created the source from which the code was taken 
 
 Credits :
+fonts : https://www.fontsquirrel.com
 menu burger : https://codepen.io/ainalem
 auto slide : https://codepen.io/shuho
 scroll to top : https://codepen.io/marcelrojas
