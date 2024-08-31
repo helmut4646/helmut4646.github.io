@@ -416,9 +416,7 @@ body {
     height: auto;
     display: grid;
     grid-template-rows: 1fr;
-    /*    border: 1px solid black;*/
     justify-items: center;
-    /*    overflow: hidden;*/
 }
 
 .blog-container h2 {
@@ -808,19 +806,49 @@ footer{
 @media only screen and (min-width: 1440px) {
         /* Navigation */
          .navigation {
-            grid-template-columns: 1fr 1fr;
+              grid-template-columns: 1fr 1fr;
          }
         
         /* Hero */
         .header p {
-           font-weight: 400;
-           font-size: clamp(1em, 5vw, 1.5em);
+             font-weight: 400;
+             font-size: clamp(1em, 5vw, 1.5em);
        }
 
        /* Button */
        .send-btn {
-          font-size: 1.1em;
+             font-size: 1.1em;
          }
+       /* About */
+       .about-container h2 {
+            font-size: clamp(1.5em, 5vw, 3em);
+        }
+
+        .caption p {
+             font-size: 1.2em;
+        }
+
+        .image-container img {
+             width: 75%;
+        }
+        /* Skills */
+        .skills-container h2 {
+             font-size: clamp(1.5em, 5vw, 3em);
+          }
+         .about-skills p {
+             font-size: 1.2em;
+         }  
+         .icon img {
+             width: 27%;
+         }
+
+         .list-skill-container {
+                width: 50%;
+            }
+         /* portfolio */
+         .portfolio-container h2 {
+             font-size: clamp(1.5em, 5vw, 3em);
+          }   
 
 }
 /* Laptop Devices (potrait and landscape) */
