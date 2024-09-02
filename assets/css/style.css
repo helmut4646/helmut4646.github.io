@@ -195,7 +195,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../images/hero.png);
+    background-image: url(../images/hero.webp);
     background-size: cover;
     position: relative;
     background-position: center;
