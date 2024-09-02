@@ -299,7 +299,6 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-/*    border: 1px solid white;*/
 }
 
 .skills-container h2 {
@@ -385,7 +384,6 @@ body {
     gap: 20px;
 }
 
-
 .portfolio-image {
     box-sizing: border-box;
     height: 20rem;
@@ -400,10 +398,6 @@ body {
     object-fit: cover;
     transform: 0;
     transition: all 7s ease;
-}
-
-.portfolio-image:hover img {
-    transform: translateY(calc(-100% + 20rem));
 }
 
 .heading-portfolio {
@@ -796,7 +790,7 @@ footer{
   line-height: 48px;
   width: 48px;
   position: fixed;
-  bottom: 20px;
+  bottom: 80px;
   right: 20px;
   z-index: 100;
   opacity: 0;
@@ -1008,6 +1002,7 @@ footer{
     .portfolio-container {
         height: auto;
         padding: 1rem;
+/*        border: 1px solid white;*/
     }
 
     .portfolio-container h2 {
@@ -1017,19 +1012,17 @@ footer{
 
     .portfolio-project {
         padding: 1rem 5rem;
-        width: 100%;
+/*        width: 100%;*/
     }
 
     .portfolio-card {
         flex-direction: column;
         height: 100vh;
+
     }
-     .portfolio-image {
-/*               width: 50%;*/
-         }
-    .portfolio-image:hover img {
-        transform: translateY(calc(-100% + 16rem));
-    }
+    .portfolio-image {
+         width: 90vw;
+     }
 
     .next {
         top: 60%;
@@ -1043,6 +1036,10 @@ footer{
         display: grid;
         grid-template-columns: 1fr;
     }
+    .heading-portfolio p {
+        width: 30ch;
+   }
+
    
     /* Gallery */
      .gallery-box {
