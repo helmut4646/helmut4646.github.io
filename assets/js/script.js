@@ -81,7 +81,7 @@ const showSlides = (n) => {
 function handleScroll() {
   // Do something on scroll
   const scrollTotal = rootElement.scrollHeight - rootElement.clientHeight;
-  if (rootElement.scrollTop / scrollTotal > .1) {
+  if (rootElement.scrollTop / scrollTotal > 0) {
     // Show button
     scrollToTopBtn.classList.add("showBtn");
   } else {

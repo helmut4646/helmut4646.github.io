@@ -206,18 +206,17 @@ color: black;
 
 .hero-container::before {
      content: "";
+     top: 0;
      display: block;
      position: absolute;
      width: 100%;
      height: 100%;
-/*     background-color: rgba(0, 0, 0, .5);*/
     background-image: linear-gradient(rgba(0,0,0, 0) 0%,rgba(0,0,0, 1) 100%);
-     
 } 
 
 .header {
     width: 100%;
-    height: 100%;
+/*    height: 100%;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -225,7 +224,7 @@ color: black;
     font-family: var(--font-heading);
     row-gap: 10px;
     text-align: center;
-    border: 1px solid white;
+    outline: none;
 }
 
 .header h1 {
@@ -233,7 +232,7 @@ color: black;
     word-spacing: 5px;
     display: flex;
     flex-direction: column;
-    font-weight: 600;
+    font-weight: 400;
 /*    text-shadow: 0px 1px 10px #faf9f6, 0px 1px 4px #faf9f6, 0px 1px 2px #faf9f6;*/
  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
     position: relative;
@@ -242,11 +241,12 @@ color: black;
 }
 
 .header p {
-    font-weight: 400;
     font-size: clamp(1.1em, 5vw, 1em);
     position: relative;
     z-index: 1;
     color: #faf9f6;
+    font-family: var(--font-paragraph);
+
 }
 
 /* About */
@@ -445,7 +445,7 @@ color: black;
     width: auto;
     margin-top: -22px;
     padding: 10px;
-    color: black;
+    color: #fdfff5;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
@@ -464,7 +464,7 @@ color: black;
 
 .prev:hover,
 .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(255, 255, 255, 0.2);
     color: white;
 }
 
@@ -505,13 +505,14 @@ color: black;
     border-radius: 0;
     transition: 400ms ease;
     padding: 1rem;
+    color: black;
 }
 
 .blog-card:hover {
     background: transparent;
-    border-color: rgba(0, 0, 0, 0.6);
-    color: rgba(0, 0, 0, 0.6);
-    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.6);
+    border-color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.8);
+    box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.8);
     z-index: 1;
     outline: none;
 }
@@ -788,9 +789,9 @@ footer{
 }
 /* button to top */
 .toTop {
-  background-color: black;
+  background-color: #fdfff5;
   border: none;
-  color: white;
+/*  color: white;*/
   cursor: pointer;
   font-size: 18px;
   line-height: 48px;
@@ -1119,6 +1120,6 @@ footer{
    }
   
   .custom-shape-divider-top-1723914026 svg {
-    height: 120px;
+    height: 140px;
   }
 }
