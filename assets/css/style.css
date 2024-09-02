@@ -898,6 +898,7 @@ footer{
 @media only screen and (max-width: 767px) {
      .hero-container {
          background-position: center;
+         height: 100dvh;
      }
     /* Body */
     body.active {
